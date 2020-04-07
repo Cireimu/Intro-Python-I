@@ -21,9 +21,8 @@ print(f1(1, 2))
 
 def f2(*args):
     sum = 0
-    if args:
-        for arg in args:
-            sum += arg
+    for arg in args:
+        sum += arg
 
     return sum
 
